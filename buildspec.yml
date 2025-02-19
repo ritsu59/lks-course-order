@@ -4,7 +4,7 @@ env:
   variables:
     ECR_REPO: "339712928773.dkr.ecr.us-east-1.amazonaws.com"
     ECR_REGION: "us-east-1"
-    CONTAINER_NAME: "lks-order-container"
+    CONTAINER_NAME: "lks-catalog-container"
     AWS_REGION: "us-east-1"
     AWS_DYNAMODB_TABLE_PROD: "lks-order-production"
     AWS_DYNAMODB_TABLE_TEST: "lks-order-testing"
